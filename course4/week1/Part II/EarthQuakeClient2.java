@@ -116,8 +116,9 @@ public class EarthQuakeClient2 {
        res = filter(list, f);
        System.out.println("Q5: " + res.size());
        
+       //cacluated in Part I LargestQuakes
        System.out.println("Q6: 5.10");
-       
+       //cacluated in Part I LargestQuakes
        System.out.println("Q7: Japan");
        
        maf = new MatchAllFilter();
