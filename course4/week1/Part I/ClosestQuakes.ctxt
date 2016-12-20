@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=quakeData\ current\ howMany
+comment0.target=java.util.ArrayList\ getClosest(java.util.ArrayList,\ Location,\ int)
+comment1.params=a\ b
+comment1.target=int\ compare(QuakeEntry,\ QuakeEntry)
+comment2.params=qList\ current\ left\ right\ howMany
+comment2.target=void\ kSelect(java.util.ArrayList,\ Location,\ int,\ int,\ int)
+comment3.params=qList\ current\ left\ right\ pivotIndex
+comment3.target=int\ partition(java.util.ArrayList,\ Location,\ int,\ int,\ int)
+comment4.params=a\ b\ current
+comment4.target=boolean\ moreClose(QuakeEntry,\ QuakeEntry,\ Location)
+comment5.params=list\ a\ b
+comment5.target=void\ swap(java.util.ArrayList,\ int,\ int)
+comment6.params=
+comment6.target=void\ findClosestQuakes()
+numComments=7
