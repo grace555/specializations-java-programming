@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=q1\ q2
+comment0.target=int\ compare(QuakeEntry,\ QuakeEntry)
+comment1.params=info
+comment1.target=java.lang.String\ getLastWord(java.lang.String)
+numComments=2

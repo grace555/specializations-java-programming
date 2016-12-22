@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=quakeNumber
+comment0.target=void\ sortWithCompareTo(int)
+comment1.params=
+comment1.target=void\ sortByMagnitude()
+comment2.params=
+comment2.target=void\ sortByDistance()
+comment3.params=quakeNumber
+comment3.target=void\ sortByTitleAndDepth(int)
+comment4.params=quakeNumber
+comment4.target=void\ sortByLastWordInTitleThenByMagnitude(int)
+comment5.params=
+comment5.target=void\ quizSolution()
+numComments=6
