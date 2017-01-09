@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=movies
+comment0.target=MoviesBy(java.util.List)
+comment1.params=
+comment1.target=java.util.Map\ getByDirector()
+comment2.params=sign\ time
+comment2.target=java.util.List\ getByTime(java.lang.String,\ int)
+comment3.params=movies\ sign\ time
+comment3.target=boolean\ meetTimeCriteria(Movie,\ java.lang.String,\ int)
+comment4.params=genre
+comment4.target=java.util.List\ getByGenre(java.lang.String)
+comment5.params=id
+comment5.target=Movie\ getByID(java.lang.String)
+comment6.params=title
+comment6.target=Movie\ getByTitle(java.lang.String)
+numComments=7

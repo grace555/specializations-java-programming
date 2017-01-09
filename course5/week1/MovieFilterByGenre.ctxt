@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=genre
+comment0.target=MovieFilterByGenre(java.lang.String)
+comment1.params=movies
+comment1.target=boolean\ meetCriteria(Movie)
+numComments=2

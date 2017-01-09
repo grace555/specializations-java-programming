@@ -1,0 +1,40 @@
+Q1: The Movie class includes a toString method. Suppose another class is using the Movie class and has declared m as a Movie and initialized m. Which TWO of the following would use the toString method correctly to print out information about the movie m?
+A1:
+System.out.println(m.toString());
+System.out.println(m); 
+
+Q2: In the class FirstRatings, run the method testLoadMovies on the file ratedmoviesfull.csv. Note there are 3143 movies in this file.
+How many of the movies include the Comedy genre?
+A2: 960
+
+Q3: In the class FirstRatings, run the method testLoadMovies on the file ratedmoviesfull.csv. Note there are 3143 movies in this file.
+How many of these movies run longer than 150 minutes?
+A3: 132
+
+Q4: In the class FirstRatings, run the method testLoadMovies on the file ratedmoviesfull.csv. Note there are 3143 movies in this file.
+What is the maximum number of films directed by one director?
+A4: 23
+
+Q5: In the class FirstRatings, run the method testLoadMovies on the file ratedmoviesfull.csv. Note there are 3143 movies in this file.
+What is the name of the director who directed more films than any other director? (There is only one.)
+A5: Woody Allen
+
+Q6: In the class FirstRatings, run the method testLoadRaters on the file ratings.csv. Note there are 1048 raters in this file.
+How many ratings does the rater number 193 have?
+A6: 119
+
+Q7: In the class FirstRatings, run the method testLoadRaters on the file ratings.csv. Note there are 1048 raters in this file.
+What is the maximum number of ratings by any rater?
+A7: 314
+
+Q8: In the class FirstRatings, run the method testLoadRaters on the file ratings.csv. Note there are 1048 raters in this file.
+Which rater rated the most number of movies?
+A8: 735
+
+Q9: In the class FirstRatings, run the method testLoadRaters on the file ratings.csv. Note there are 1048 raters in this file.
+How many ratings does the movie “1798709” have?
+A9: 38
+
+Q10: In the class FirstRatings, run the method testLoadRaters on the file ratings.csv. Note there are 1048 raters in this file.
+What is the total number of unique movies that have been rated?
+Q10: 3143

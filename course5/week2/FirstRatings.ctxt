@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=csvFile
+comment0.target=java.util.ArrayList\ loadMovie(java.lang.String)
+comment1.params=csvFile
+comment1.target=java.util.ArrayList\ loadRater(java.lang.String)
+comment2.params=
+comment2.target=void\ assignment()
+comment3.params=list
+comment3.target=java.util.Map.Entry\ testMaxNumMoviesByDirector(java.util.List)
+numComments=4

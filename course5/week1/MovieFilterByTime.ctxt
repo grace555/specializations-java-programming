@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=sign\ time
+comment0.target=MovieFilterByTime(java.lang.String,\ int)
+comment1.params=movies
+comment1.target=boolean\ meetCriteria(Movie)
+numComments=2
