@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=minimalRaters
+comment0.target=void\ printAverageRatings(int)
+comment1.params=minimalRaters\ year
+comment1.target=void\ printAverageRatingsByYear(int,\ int)
+comment10.params=minimalRaters\ f
+comment10.target=java.util.ArrayList\ getRatingsByFilter(int,\ Filter)
+comment2.params=minimalRaters\ genre
+comment2.target=void\ printAverageRatingsByGenre(int,\ java.lang.String)
+comment3.params=minimalRaters\ min\ max
+comment3.target=void\ printAverageRatingsByMinutes(int,\ int,\ int)
+comment4.params=minimalRaters\ directors
+comment4.target=void\ printAverageRatingsByDirectors(int,\ java.lang.String)
+comment5.params=minimalRaters\ year\ genre
+comment5.target=void\ printAverageRatingsByYearAfterAndGenre(int,\ int,\ java.lang.String)
+comment6.params=minimalRaters\ directors\ min\ max
+comment6.target=void\ printAverageRatingsByDirectorsAndMinutes(int,\ java.lang.String,\ int,\ int)
+comment7.params=
+comment7.target=void\ quiz()
+comment8.params=num
+comment8.target=java.lang.String\ round(double)
+comment9.params=rating
+comment9.target=void\ printLowestRatedMovie(Rating)
+numComments=11

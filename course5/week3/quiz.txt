@@ -1,0 +1,38 @@
+Q1: In the SecondRatings class, the name of the private variable to store the ArrayList of type Movie is named myMovies. For the constructor in this class that has two String parameters named moviefile and ratingsfile, which one of the following shows how one might call loadMovies, which is a method in the FirstRatings class?
+A1: 
+FirstRatings fr = new FirstRatings();
+myMovies = fr.loadMovies("data/" + moviefile);
+
+Q2: In the printAverageRatings method in the MovieRunnerAverage class, which one of the following would be the way to print the number of movies read in and the number of raters read in?
+A2: 
+// assume moviefile and ratingsfile have been defined
+SecondRatings runner = new SecondRatings(moviefile,ratingsfile);
+System.out.println("read data for " + runner.getRaterSize() + " raters");
+System.out.println("read data for " + runner.getMovieSize() + " movies");
+
+Q3: What is the average rating of the movie "No Country for Old Men"?
+A3: 8.6
+
+Q4: What is the average rating of the movie "Inside Llewyn Davis"?
+A4: 7
+
+Q5: Using the files ratedmoviesfull.csv and ratings.csv, what is the rating of the movie “The Maze Runner”?
+(Give your answer to the ten thousandths place, or four decimal places.)
+A5: 7.1875
+
+Q6: Using the files ratedmoviesfull.csv and ratings.csv, what is the rating of the movie “Moneyball”?
+(Give your answer to the ten thousandths place, or four decimal places.)
+A6: 8.3750
+
+Q7: Using the files ratedmoviesfull.csv and ratings.csv, what is the rating of the movie “Vacation”?
+(Give your answer to the ten thousandths place, or four decimal places.)
+A7: 6.8000
+
+Q8: Using the files ratedmoviesfull.csv and ratings.csv, how many movies have 50 or more ratings?
+A8: 7
+
+Q9: Using the files ratedmoviesfull.csv and ratings.csv, of those movies that have at least 20 ratings, what is the name of the movie that has the lowest rating?
+A9: The Purge
+
+Q10: Using the files ratedmoviesfull.csv and ratings.csv, of those movies that have at least 12 ratings, what is the name of the movie that has the lowest rating?
+A10: Spring Breakers
