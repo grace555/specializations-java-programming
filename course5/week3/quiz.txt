@@ -1,38 +1,36 @@
-Q1: In the SecondRatings class, the name of the private variable to store the ArrayList of type Movie is named myMovies. For the constructor in this class that has two String parameters named moviefile and ratingsfile, which one of the following shows how one might call loadMovies, which is a method in the FirstRatings class?
+Q1: In creating the Rater interface from the original Rater class, which one of the following is the signature of the getID method from the original Rater class that is put into the Rater interface?
 A1: 
-FirstRatings fr = new FirstRatings();
-myMovies = fr.loadMovies("data/" + moviefile);
+public String getID();
 
-Q2: In the printAverageRatings method in the MovieRunnerAverage class, which one of the following would be the way to print the number of movies read in and the number of raters read in?
+Q2: In the EfficientRater class, assume the private variable myRatings has been changed to a HashMap of type String mapped to a Rating. Which one of the following might be the code to the method addRating(String item, double rating)?
 A2: 
-// assume moviefile and ratingsfile have been defined
-SecondRatings runner = new SecondRatings(moviefile,ratingsfile);
-System.out.println("read data for " + runner.getRaterSize() + " raters");
-System.out.println("read data for " + runner.getMovieSize() + " movies");
+myRatings.put(item,new Rating(item,rating));
 
-Q3: What is the average rating of the movie "No Country for Old Men"?
-A3: 8.6
+Q3: In the getAverageRatings method in ThirdRatings, after getting the movies from the MovieDatabase with the line:
+ArrayList<String> movies = MovieDatabase.filterBy(new TrueFilter());
+Which one of the following could be the new for loop to loop over all the movies to calculate their average rating?
+A3: 
+for (String id: movies) {
 
-Q4: What is the average rating of the movie "Inside Llewyn Davis"?
-A4: 7
+Q4: In the MovieRunnerWithFilters class, call the method printAverageRatings using the files ratedmoviesfull.csv and ratings.csv and the number of minimal raters set to 35. How many rated movies are returned?
+A4: 29
 
-Q5: Using the files ratedmoviesfull.csv and ratings.csv, what is the rating of the movie “The Maze Runner”?
-(Give your answer to the ten thousandths place, or four decimal places.)
-A5: 7.1875
+Q5: In the MovieRunnerWithFilters class, call the method printAverageRatingsByYearAfter using the files ratedmoviesfull.csv and ratings.csv and the number of minimal raters set to 20 and the year set to 2000 (meaning movies released in the year 2000 or later). How many rated movies are returned?
+A5: 88
 
-Q6: Using the files ratedmoviesfull.csv and ratings.csv, what is the rating of the movie “Moneyball”?
-(Give your answer to the ten thousandths place, or four decimal places.)
-A6: 8.3750
 
-Q7: Using the files ratedmoviesfull.csv and ratings.csv, what is the rating of the movie “Vacation”?
-(Give your answer to the ten thousandths place, or four decimal places.)
-A7: 6.8000
+Q6: In the MovieRunnerWithFilters class, call the method printAverageRatingsByGenre using the files ratedmoviesfull.csv and ratings.csv and the number of minimal raters set to 20 and the genre set to Comedy. How many rated movies are returned?
+A6: 19
 
-Q8: Using the files ratedmoviesfull.csv and ratings.csv, how many movies have 50 or more ratings?
-A8: 7
 
-Q9: Using the files ratedmoviesfull.csv and ratings.csv, of those movies that have at least 20 ratings, what is the name of the movie that has the lowest rating?
-A9: The Purge
+Q7: In the MovieRunnerWithFilters class, call the method printAverageRatingsByMinutes using the files ratedmoviesfull.csv and ratings.csv and the number of minimal raters set to 5 and find all the movies that are close to two hours within 15 minutes (movies that take at least 105 minutes and at most 135 minutes). How many rated movies are returned?
+A7: 231
 
-Q10: Using the files ratedmoviesfull.csv and ratings.csv, of those movies that have at least 12 ratings, what is the name of the movie that has the lowest rating?
-A10: Spring Breakers
+Q8: In the MovieRunnerWithFilters class, call the method printAverageRatingsByDirectors using the files ratedmoviesfull.csv and ratings.csv and the number of minimal raters set to 4 and find all the movies that have at least one of these directors: "Clint Eastwood,Joel Coen,Martin Scorsese,Roman Polanski,Nora Ephron,Ridley Scott,Sydney Pollack". How many rated movies are returned?
+A8: 22
+
+Q9: In the MovieRunnerWithFilters class, call the method printAverageRatingsByYearAfterAndGenre using the files ratedmoviesfull.csv and ratings.csv and the number of minimal raters set to 8, the year set to 1990 (meaning movies released in the year 1990 or later), and the genre set to “Drama”. How many rated movies are returned?
+A9: 132
+
+Q10: In the MovieRunnerWithFilters class, call the method printAverageRatingsByDirectorsAndMinutes using the files ratedmoviesfull.csv and ratings.csv and the number of minimal raters set to 3 and the length of the film set to at least 90 minutes and no more than 180 minutes. Find all the movies that have at least one of these directors: "Clint Eastwood,Joel Coen,Tim Burton,Ron Howard,Nora Ephron,Sydney Pollack". How many rated movies are returned?
+A10: 15
