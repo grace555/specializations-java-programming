@@ -12,13 +12,12 @@ public class EarthQuakeClient2 {
     public ArrayList<QuakeEntry> filter(ArrayList<QuakeEntry> quakeData, Filter f) { 
         ArrayList<QuakeEntry> answer = new ArrayList<QuakeEntry>();
         for(QuakeEntry qe : quakeData) { 
-            if (f.satisfies(qe)) { 
+            if (f.satisfies(qe)) {
                 answer.add(qe); 
-            } 
+            }
         } 
-        
         return answer;
-    } 
+    }
 
     public void quakesWithFilter() { 
         EarthQuakeParser parser = new EarthQuakeParser(); 
@@ -36,7 +35,7 @@ public class EarthQuakeClient2 {
         
         for (QuakeEntry qe: m7) { 
             System.out.println(qe);
-        } 
+        }
     }
     
     public void testMatchAllFilter() {

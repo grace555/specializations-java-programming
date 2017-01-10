@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=raterID\ numSimilarRaters\ minimalRaters\ filterCriteria
+comment0.target=java.util.ArrayList\ getRatingsByFilter(java.lang.String,\ int,\ int,\ Filter)
+comment1.params=ratings
+comment1.target=void\ printRatedMovie(java.util.ArrayList)
+comment2.params=num
+comment2.target=java.lang.String\ round(double)
+comment3.params=raterID\ numSimilarRaters\ minimalRaters
+comment3.target=void\ printSimilarRatings(java.lang.String,\ int,\ int)
+comment4.params=raterID\ numSimilarRaters\ minimalRaters\ genre
+comment4.target=void\ printSimilarRatingsByGenre(java.lang.String,\ int,\ int,\ java.lang.String)
+comment5.params=raterID\ numSimilarRaters\ minimalRaters\ directors
+comment5.target=void\ printSimilarRatingsByDirector(java.lang.String,\ int,\ int,\ java.lang.String)
+comment6.params=raterID\ numSimilarRaters\ minimalRaters\ genre\ min\ max
+comment6.target=void\ printSimilarRatingsByGenreAndMinutes(java.lang.String,\ int,\ int,\ java.lang.String,\ int,\ int)
+comment7.params=raterID\ numSimilarRaters\ minimalRaters\ year\ min\ max
+comment7.target=void\ printSimilarRatingsByYearAfterAndMinutes(java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment8.params=
+comment8.target=void\ assignment()
+numComments=9

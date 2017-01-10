@@ -1,0 +1,56 @@
+Q1: In the class FourthRatings, which one of the following is a correct replacement for the line
+for (Rater r: myRaters){
+that came from the file ThirdRatings but now should use the RaterDatabase class.
+A1: 
+for (Rater r: RaterDatabase.getRaters()){
+
+Q2: In the method printAverageRatings in the Class MovieRunnerSimilarRatings, assume the name of the FourthRatings object is named runner. Which one of the following is a correct way to print out the number of raters in the RaterDatabase?
+A2:
+System.out.println("read data for" + RaterDatabase.size() + "raters");
+
+
+Q3: Consider that the following ratings exist
+RaterID     MovieID     Rating
+15          2354        10
+15          3285        6
+15          1297        2
+15          5804        8
+20          3285        4
+20          1297        7
+20          6574        10
+20          2354        9
+Consider the method dotProduct in the FourthRatings class. What should the call dotProduct(“15”, “20”) return?
+A3: 
+13
+
+Q4: Consider that the following ratings exist
+SAME AS Q3
+For rater 30, we have calculated similarity ratings with these two raters:
+RaterID,   Similarity with Rater 30
+15,        7.0
+20,        30.0
+Assuming these are the only raters who rated movie 3285, what is the weighted average rating for the movie with ID 3285?
+A4:
+81
+
+Q5: Which one of the following statements is true about the FourthRatings class where the changes suggested are the only changes made and the program works as it did before after the change?
+A5: 
+The method getSimilarRatings can be written with just one line of code that returns the result of a call to getSimilarRatingsByFilter.
+
+Q6: Run the printSimilarRatings method in the MovieRunnerSimilarRatings class using the files ratedmoviesfull.csv and ratings.csv and the rater id 337, the number of minimal raters to 3 and the number of top similar raters set to 10. What is the movie with the top rated average?
+A6: Frozen
+
+Q7: Run the printSimilarRatingsByGenre method in the MovieRunnerSimilarRatings class using the files ratedmoviesfull.csv and ratings.csv and the rater id 964, the genre “Mystery”, the number of minimal raters to 5 and the number of top similar raters set to 20. What is the movie with the top rated average?
+A7: Gone Girl
+
+Q8: Run the printSimilarRatings method in the MovieRunnerSimilarRatings class using the files ratedmoviesfull.csv and ratings.csv and the rater id 71, the number of minimal raters to 5 and the number of top similar raters set to 20. What is the movie with the top rated average?
+A8: About Time
+
+Q9: Run the printSimilarRatingsByDirector method in the MovieRunnerSimilarRatings class using the files ratedmoviesfull.csv and ratings.csv and the rater id 120, the directors “Clint Eastwood,J.J. Abrams,Alfred Hitchcock,Sydney Pollack,David Cronenberg,Oliver Stone,Mike Leigh”, the number of minimal raters to 2 and the number of top similar raters set to 10. What is the movie with the top rated average?
+A9: Star Trek
+
+Q10: Run the printSimilarRatingsByGenreAndMinutes method in the MovieRunnerSimilarRatings class using the files ratedmoviesfull.csv and ratings.csv and the rater id 168, the genre Drama, the length of the movie between 80 and 160 inclusive, the number of minimal raters to 3 and the number of top similar raters set to 10. What is the movie with the top rated average?
+A10: The Imitation Game
+
+Q11: Run the printSimilarRatingsByYearAfterAndMinutes method in the MovieRunnerSimilarRatings class using the files ratedmoviesfull.csv and ratings.csv and the rater id 314, the year 1975, the length of the movie between 70 and 200 inclusive, the number of minimal raters to 5 and the number of top similar raters set to 10. What is the movie with the top rated average?
+A11: Nightcrawler
